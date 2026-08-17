@@ -109,14 +109,14 @@ These tests were used to verify:
 
 ## 📷 Network Topology
 
-![Enterprise Network Topology](D/topology.png)
+![Enterprise Network Topology](D /topology.png)
 
 ---
 
 ## 📁 Project Files
 
 ```text
-Enterprise-Network-DHCP-RIPv2/
+D/
 │
 ├── README.md
 ├── Enterprise-Network-DHCP-RIPv2.pkt
