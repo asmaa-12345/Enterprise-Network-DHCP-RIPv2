@@ -1,72 +1,172 @@
-# Enterprise Network – DHCP & RIPv2
+# 🌐 Enterprise Network Simulation | DHCP & RIPv2
+
+> A practical enterprise network simulation built with **Cisco Packet Tracer**, applying core **CCNA networking concepts** including IPv4 subnetting, DHCP, and RIPv2 dynamic routing.
+
+---
 
 ## 📌 Project Overview
 
-This project is an enterprise network simulation developed using **Cisco Packet Tracer**.
+This project simulates an **enterprise network environment** where multiple branches are interconnected through routers.
 
-The network demonstrates how multiple branches can communicate with each other using **RIPv2 dynamic routing**, while end devices receive their IP configuration automatically through **DHCP**.
+The network was designed and configured to provide:
+
+* 🔹 Automatic IP address assignment using **DHCP**
+* 🔹 Dynamic routing between networks using **RIPv2**
+* 🔹 Efficient IPv4 addressing using **Subnetting**
+* 🔹 Communication between different enterprise branches
+* 🔹 Network verification and troubleshooting
+
+The project focuses on applying networking concepts in a practical environment rather than only studying them theoretically.
+
+---
+
+## 🏗️ Network Architecture
+
+The topology consists of multiple routers, switches, and end devices representing different enterprise branches.
+
+Each branch has its own local network, while the routers are responsible for forwarding traffic between different networks.
+
+### Network Components
+
+* 🖥️ End Devices
+* 🔀 Cisco Switches
+* 🌐 Cisco Routers
+* 📡 DHCP Configuration
+* 🔄 RIPv2 Dynamic Routing
+* 📊 IPv4 Subnetting
+
+---
 
 ## 🛠️ Technologies & Concepts
 
-* Cisco Packet Tracer
-* IPv4 Addressing
-* Subnetting
-* DHCP
-* RIPv2 Dynamic Routing
-* Router Configuration
-* Switch Configuration
-* Network Connectivity & Troubleshooting
+| Technology / Concept | Implementation          |
+| -------------------- | ----------------------- |
+| Cisco Packet Tracer  | Network Simulation      |
+| IPv4                 | Network Addressing      |
+| Subnetting           | Network Segmentation    |
+| DHCP                 | Automatic IP Assignment |
+| RIPv2                | Dynamic Routing         |
+| Cisco IOS            | Device Configuration    |
+| Ping                 | Connectivity Testing    |
+| Routing Table        | Route Verification      |
 
-## 🌐 Network Design
+---
 
-The network consists of multiple enterprise branches connected through routers.
+## ⚙️ Configuration
 
-Each branch contains a local network with end devices, while routers are responsible for communication between different networks.
+### 🔹 IPv4 Subnetting
 
+The network was divided into multiple subnets to provide separate networks for the different branches.
 
-📁 Project Files
-File	Description
-Enterprise-Network-DHCP-RIPv2.pkt	Cisco Packet Tracer project
-images/topology.png	Network topology diagram
+Subnetting was used to organize the network and efficiently allocate IP addresses.
 
-🔍 Network Verification
+### 🔹 DHCP
 
-The network was tested to ensure successful communication between different branches.
+DHCP was configured to automatically provide end devices with:
 
-Verification Commands
+* IP Address
+* Subnet Mask
+* Default Gateway
+
+This eliminates the need to manually configure each end device.
+
+### 🔹 RIPv2
+
+RIPv2 was configured on the routers to dynamically exchange routing information between the different networks.
+
+This allows routers to automatically learn remote networks and select available routes.
+
+---
+
+## 🧪 Network Verification
+
+After completing the configuration, the network was tested to ensure proper connectivity and routing.
+
+### Useful Cisco IOS Commands
+
+```bash
 show ip interface brief
 show ip route
 show ip protocols
-ipconfig
-ping
+```
 
-These commands were used to verify:
+### Connectivity Testing
 
-Interface status
-IP addressing
-Routing table
-RIPv2 configuration
-DHCP-assigned addresses
-End-to-end connectivity
+```bash
+ping <destination-ip>
+```
 
-### Main Features
+These tests were used to verify:
 
-* Designed the network using **IPv4 subnetting**
-* Configured **DHCP** for automatic IP address assignment
-* Configured **RIPv2** for dynamic route exchange
-* Configured routers and switches
-* Verified connectivity between different networks
-* Tested the network using `ping` and routing commands
+* ✅ Interface status
+* ✅ IP addressing
+* ✅ DHCP operation
+* ✅ RIPv2 routes
+* ✅ Communication between branches
+* ✅ End-to-end connectivity
 
+---
+
+## 📷 Network Topology
+
+![Enterprise Network Topology](D/topology.png)
+
+---
+
+## 📁 Project Files
+
+```text
+Enterprise-Network-DHCP-RIPv2/
+│
+├── README.md
+├── Enterprise-Network-DHCP-RIPv2.pkt
+│
+└── images/
+    └── topology.png
+```
+
+### Files Description
+
+**`Enterprise-Network-DHCP-RIPv2.pkt`**
+Cisco Packet Tracer project containing the complete network topology and configuration.
+
+**`images/topology.png`**
+Network topology diagram used to visualize the enterprise network.
+
+---
 
 ## 🎯 Learning Objectives
 
-The main goal of this project was to apply CCNA networking concepts in a practical enterprise network environment and understand how different networks communicate using dynamic routing and DHCP.
+Through this project, I practiced and applied:
+
+* IPv4 addressing
+* Subnetting
+* DHCP configuration
+* RIPv2 dynamic routing
+* Router configuration
+* Switch configuration
+* Network troubleshooting
+* Connectivity verification
+* Cisco IOS commands
+
+---
+
+## 💡 Key Takeaway
+
+This project helped me move from **theoretical CCNA concepts to practical network implementation**, giving me hands-on experience with designing, configuring, and troubleshooting a multi-network enterprise environment.
+
+---
 
 ## 👩‍💻 Author
 
-**Asmaa Tarek Elsayed Mohamed Elgaml**
+### **Asmaa Tarek Elsayed Elgaml**
 
-Computer & Information – Menofia University
+🎓 Faculty of Computers and Information – Menofia University
 
-**Focus:** Networking & Cybersecurity
+💻 **Networking & Cybersecurity**
+
+📚 **CCNA | Network Security**
+
+---
+
+⭐ *This project was created as part of my practical networking and CCNA learning journey.*
