@@ -116,7 +116,7 @@ These tests were used to verify:
 
 ### Successful Connectivity Test – Ping Between Different Networks
 
-![Successful Ping Test](images/ping-test.png)
+![Successful Ping Test](https://github.com/asmaa-12345/Enterprise-Network-DHCP-RIPv2/blob/main/photo_2026-08-18_02-34-11.jpg?raw=true)
 ## 📁 Project Files
 
 ```text
