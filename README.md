@@ -120,13 +120,7 @@ These tests were used to verify:
 ## 📁 Project Files
 
 ```text
-D/
-│
-├── README.md
-├── Enterprise-Network-DHCP-RIPv2.pkt
-│
-└── images/
-    └── topology.png
+!(project file)()
 ```
 
 ### Files Description
