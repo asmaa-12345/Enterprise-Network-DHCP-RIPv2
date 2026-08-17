@@ -117,12 +117,19 @@ These tests were used to verify:
 ### Successful Connectivity Test – Ping Between Different Networks
 
 ![Successful Ping Test](https://github.com/asmaa-12345/Enterprise-Network-DHCP-RIPv2/blob/main/photo_2026-08-18_02-34-11.jpg)
-## 📁 Project Files
+## 📁 Project File
 
-```text
-!(project file)(https://github.com/asmaa-12345/Enterprise-Network-DHCP-RIPv2/commit/cea60566287a8f6c4b81c9d3d795ec1c91968650#diff-105ce042e8dd8182eb5fed28a02b81852dc4fecf6a7fe8a28f1127ecedec1227)
-```
+💻 **Cisco Packet Tracer Project**
 
+[Download / View the Enterprise Network Project](https://github.com/asmaa-12345/Enterprise-Network-DHCP-RIPv2/blob/f2014eecf30479a210fefb3e3e9616a82282fc6f/Enterprise-Network-DHCP-RIPv2.pkt)
+
+The project contains the complete enterprise network topology and configuration, including:
+
+- IPv4 Subnetting
+- DHCP
+- RIPv2 Dynamic Routing
+- Router & Switch Configuration
+- Network Connectivity Testing
 ### Files Description
 
 **`Enterprise-Network-DHCP-RIPv2.pkt`**
