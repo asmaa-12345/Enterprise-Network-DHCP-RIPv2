@@ -22,6 +22,30 @@ The network demonstrates how multiple branches can communicate with each other u
 The network consists of multiple enterprise branches connected through routers.
 
 Each branch contains a local network with end devices, while routers are responsible for communication between different networks.
+📁 Project Files
+File	Description
+Enterprise-Network-DHCP-RIPv2.pkt	Cisco Packet Tracer project
+images/topology.png	Network topology diagram
+
+🔍 Network Verification
+
+The network was tested to ensure successful communication between different branches.
+
+Verification Commands
+show ip interface brief
+show ip route
+show ip protocols
+ipconfig
+ping
+
+These commands were used to verify:
+
+Interface status
+IP addressing
+Routing table
+RIPv2 configuration
+DHCP-assigned addresses
+End-to-end connectivity
 
 ### Main Features
 
