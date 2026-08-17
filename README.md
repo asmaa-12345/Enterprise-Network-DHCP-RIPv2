@@ -22,6 +22,8 @@ The network demonstrates how multiple branches can communicate with each other u
 The network consists of multiple enterprise branches connected through routers.
 
 Each branch contains a local network with end devices, while routers are responsible for communication between different networks.
+
+
 📁 Project Files
 File	Description
 Enterprise-Network-DHCP-RIPv2.pkt	Cisco Packet Tracer project
