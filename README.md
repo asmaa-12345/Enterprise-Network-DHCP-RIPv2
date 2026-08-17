@@ -109,14 +109,14 @@ These tests were used to verify:
 
 ## 📷 Network Topology
 
-![topology](https://github.com/asmaa-12345/Enterprise-Network-DHCP-RIPv2/commit/cea60566287a8f6c4b81c9d3d795ec1c91968650#diff-94bbf41d50e09c2dd4b661767acd4009cca4e6b9ac3696d18c0ab8911635f50f)
+![topology](https://raw.githubusercontent.com/asmaa-12345/Enterprise-Network-DHCP-RIPv2/cea60566287a8f6c4b81c9d3d795ec1c91968650/photo_2026-08-18_02-34-11.jpg)
 
 ---
 ## 🧪 Connectivity Test
 
 ### Successful Connectivity Test – Ping Between Different Networks
 
-![Successful Ping Test](https://github.com/asmaa-12345/Enterprise-Network-DHCP-RIPv2/blob/main/photo_2026-08-18_02-34-11.jpg?raw=true)
+![Successful Ping Test](https://github.com/asmaa-12345/Enterprise-Network-DHCP-RIPv2/blob/main/photo_2026-08-18_02-34-11.jpg)
 ## 📁 Project Files
 
 ```text
