@@ -121,7 +121,7 @@ These tests were used to verify:
 
 💻 **Cisco Packet Tracer Project**
 
-[Download / View the Enterprise Network Project](https://github.com/asmaa-12345/Enterprise-Network-DHCP-RIPv2/blob/f2014eecf30479a210fefb3e3e9616a82282fc6f/Enterprise-Network-DHCP-RIPv2.pkt)
+[Download / View the Enterprise Network Project](https://github.com/asmaa-12345/Enterprise-Network-DHCP-RIPv2/blob/main/Enterprise-Network-DHCP-RIPv2.pkt)
 
 The project contains the complete enterprise network topology and configuration, including:
 
@@ -130,15 +130,7 @@ The project contains the complete enterprise network topology and configuration,
 - RIPv2 Dynamic Routing
 - Router & Switch Configuration
 - Network Connectivity Testing
-### Files Description
 
-**`Enterprise-Network-DHCP-RIPv2.pkt`**
-Cisco Packet Tracer project containing the complete network topology and configuration.
-
-**`images/topology.png`**
-Network topology diagram used to visualize the enterprise network.
-
----
 
 ## 🎯 Learning Objectives
 
